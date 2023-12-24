@@ -1,0 +1,26 @@
+.L-page{
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+
+    .L-text{
+        color: white;
+        font-family: 'Coolvetica';
+        position: absolute;
+        font-size: 40px;
+        left: 40%;
+        top: 30%;
+    }
+
+    .home-btn{
+        color: white;
+        font-family: 'Coolvetica';
+        position: absolute;
+        font-size: 35px;
+        left: 43.5%;
+        top: 45%;
+    }
+
+    .imp{
+        color: cyan;
+    }
+}
