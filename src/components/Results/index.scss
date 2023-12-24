@@ -1,0 +1,113 @@
+.results-page{
+    animation: fadeIn 1s 0.5s forwards;
+    opacity: 0;
+
+    .header-text{
+        position: absolute;
+        left: 23%;
+        font-size: 20px;
+        width: 56%;
+        color: white; 
+        font-family: 'Coolvetica';
+        margin: 0;
+        top: -1%;
+        text-align: center;
+    }
+    
+    h1{
+        letter-spacing: 1px;
+        font-weight: 300;
+    }
+
+    .userSong{
+        color: cyan;
+        opacity: 0;
+        animation: fadeIn 1s 1s forwards;
+        text-transform: capitalize;
+    }
+
+    .userArtist{
+        color: #8b27e3;
+        opacity: 0;
+        animation: fadeIn 1s 1.5s forwards;
+        text-transform: capitalize;
+    }
+
+    .text-0{
+        color: white;
+        text-align: center;
+        font-family: 'Coolvetica';
+        margin: 0;
+        font-size: 12px;
+        overflow-wrap: break-word;
+        letter-spacing: 0.25px;
+    }
+    .img-0{
+        width: 250px;  
+    }
+
+    .box-0{
+        position: absolute;
+        left: 8%;
+        top: 60.75%;
+        opacity: 0;
+        animation: fadeIn 1s 2.4s forwards;
+        width: 250px;
+    }
+    .box-1{
+        position: absolute;
+        left: 31.25%;
+        top: 60.75%;
+        opacity: 0;
+        animation: fadeIn 1s 2.5s forwards;
+        width: 250px;
+    }
+    .box-2{
+        position: absolute;
+        left: 54.75%;
+        top: 60.75%;
+        opacity: 0;
+        animation: fadeIn 1s 2.6s forwards;
+        width: 250px;
+    }
+    .box-3{
+        position: absolute;
+        left: 78%;
+        top: 60.75%;
+        opacity: 0;
+        animation: fadeIn 1s 2.7s forwards;
+        width: 250px;
+    }
+    .box-4{
+        position: absolute;
+        left: 8%;
+        top: 20.75%;
+        opacity: 0;
+        animation: fadeIn 1s 2s forwards;
+        width: 250px;
+    }
+    .box-5{
+        position: absolute;
+        left: 31.25%;
+        top: 20.75%;
+        opacity: 0;
+        animation: fadeIn 1s 2.1s forwards;
+        width: 250px;
+    }
+    .box-6{
+        position: absolute;
+        left: 54.75%;
+        top: 20.75%;
+        opacity: 0;
+        animation: fadeIn 1s 2.2s forwards;
+        width: 250px;
+    }
+    .box-7{
+        position: absolute;
+        left: 78%;
+        top: 20.75%;
+        opacity: 0;
+        animation: fadeIn 1s 2.3s forwards;
+        width: 250px;
+    }
+}

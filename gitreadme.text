@@ -1,0 +1,4 @@
+for committing changes to github do this (inside react-portfolio dir):
+git add.
+git commit -m "Commit Message"
+git push origin master
